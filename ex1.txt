@@ -1,0 +1,20 @@
+<solucion>
+
+var int x;
+var int y;
+
+x = 2;
+y = 5;
+
+si () {
+
+} sino () {
+
+}
+
+mientras () {
+
+}
+
+
+</solucion>
