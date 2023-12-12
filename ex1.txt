@@ -1,20 +1,13 @@
 <solucion>
-
-var int x;
-var int y;
-
-x = 2;
-y = 5;
-
-si () {
-
-} sino () {
-
+var float a;
+var int b;
+a = 2.5;
+b = 5;
+si (a > b) { 
+    mientras (a <= b) {
+        a = a + 1;
+    }
+} sino {
+    b = 2;
 }
-
-mientras () {
-
-}
-
-
 </solucion>

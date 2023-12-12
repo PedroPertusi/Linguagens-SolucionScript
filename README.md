@@ -1,7 +1,9 @@
 # Linguagens-SolucionScript
 
-possuir, no mínimo, 2 tipos -> int, string (declara tipo id;)
+Linguagem em espanhol com linguagem similar ao JavaScript e Java. 
+
+possuir, no mínimo, 2 tipos -> int, float
 possuir um comando de atribuição -> id = valor;
-possuir um comando condicional -> if {} else {} elif {}?
-possuir um comando de repetição -> while () {} ? for {} ? 
-possuir uma característica de modularização ou orientação a objetos ou funcional -> ou lambda ou objeto não sei ainda 
+possuir um comando condicional -> si {} sino {} (if-else)
+possuir um comando de repetição -> mientras () {} (while)
+possuir uma característica de modularização ou orientação a objetos ou funcional -> 

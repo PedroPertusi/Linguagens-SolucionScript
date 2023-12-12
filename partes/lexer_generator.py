@@ -23,8 +23,8 @@ def lexer_generator():
     lg.add('VAR', r'var')
     lg.add('INT', r'int')
     lg.add('FLOAT', r'float')
-    lg.add('IF', r'si')
     lg.add('ELSE', r'sino')
+    lg.add('IF', r'si')
     lg.add('WHILE', r'mientras')
 
     lg.add('ID', r'[a-zA-Z][a-zA-Z0-9]*')
@@ -33,8 +33,6 @@ def lexer_generator():
     lg.add('SEMICOLOM', r'\;')
 
     lg.ignore(r'\s+') # ignore spaces
-    # lg.ignore(r'//.*') # ignore comments
-    # lg.ignore(r'/\*.*\*/') # ignore comments
     lg.ignore(r'\n+') # ignore newlines
 
 

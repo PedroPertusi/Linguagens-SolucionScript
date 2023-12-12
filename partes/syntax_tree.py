@@ -4,7 +4,7 @@ from rply.token import BaseBox
 
 class Solucion(BaseBox):
     def __init__(self, decls,stmts):
-        self.decls = decls
+        self.vardecls = decls
         self.stmts = stmts
 
     def accept(self, visitor):
@@ -12,8 +12,8 @@ class Solucion(BaseBox):
 
 class VarDecls(BaseBox):
     def __init__(self, decl,decls):
-        self.decl = decl
-        self.decls = decls
+        self.vardecl = decl
+        self.vardecls = decls
 
     def accept(self, visitor):
         visitor.visit_vardecls(self)
@@ -22,7 +22,6 @@ class VarDecl(BaseBox):
     def __init__(self, id,tp):
         self.id = id
         self.tp = tp
-
 
     def accept(self, visitor):
         visitor.visit_vardecl(self)

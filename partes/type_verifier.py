@@ -14,7 +14,7 @@ class TypeVerifier(Visitor):
           d.stmts.accept(self)
 
     def visit_statement(self, d):
-        d.cmd.accept(self)
+        d.stmt.accept(self)
 
     def visit_atrib(self, i):
         if i.decor_type!=i.expr.decor_type:

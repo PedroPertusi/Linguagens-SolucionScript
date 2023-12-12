@@ -6,12 +6,12 @@ class SymbolTable(Visitor):
         self.ST = {}
 
     def visit_solucion(self, solucion):
-        solucion.decls.accept(self)
+        solucion.vardecls.accept(self)
 
     def visit_vardecls(self, d):
-        d.decl.accept(self)
-        if d.decls!=None:
-          d.decls.accept(self)
+        d.vardecl.accept(self)
+        if d.vardecls!=None:
+          d.vardecls.accept(self)
 
     def visit_vardecl(self, d):
         self.ST[d.id]=d.tp

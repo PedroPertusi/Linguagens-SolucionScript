@@ -21,9 +21,9 @@ def parser_generator():
         ('left', ['PLUS', 'MINUS']),
         ('left', ['MUL', 'DIV'])
     ]
-)
+    )
 
-    @pg.production('prog : OPEN_SOLUCION vardecls statements CLOSE_SOLUCION')
+    @pg.production('solucion : OPEN_SOLUCION vardecls statements CLOSE_SOLUCION')
     def prog(p):
         return Solucion(p[1],p[2])
 
