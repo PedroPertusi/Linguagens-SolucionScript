@@ -1,6 +1,6 @@
 <solucion>
-var float a;
-var int b;
+var fraccionario a;
+var entero b;
 a = 2.5;
 b = 5;
 si (a > b) { 
