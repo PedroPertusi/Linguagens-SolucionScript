@@ -1,19 +1,25 @@
 # Linguagens-SolucionScript
 
-Linguagem em espanhol com linguagem similar ao JavaScript e Java. 
+Alunos: Pedro Pertusi e Lucca Hiratsuca
 
-- possuir, no mínimo, 2 tipos -> int, float (entero, facionario)
-- possuir um comando de atribuição -> id = valor;
-- possuir um comando condicional -> si {} sino {} (if-else)
-- possuir um comando de repetição -> mientras () {} (while)
-- possuir uma característica de modularização ou orientação a objetos ou funcional -> 
+## Introdução
 
----- 
-Extra:
+O SolucionScript é uma linguagem de programação criada pensando na lingua espanhola, com o objetivo de ser simples e intuitiva, resolvendo assim problemas simples. A linguagem é baseada em JavaScript e possui uma sintaxe simples e intuitiva.
 
 
-```
-funcion nome_funcion(param) {
-    devolver expression;
-}
-```
+----
+
+### PARADIGMA FUNCIONAL 
+
+Para definir uma função:
+
+    funcion nome_funcion(param) {
+        devolver expression;
+    }
+
+
+Para chamar uma função:
+
+    nome_funcion(param);
+
+A função retorna o valor que pode ser atribuído a uma variável ou usado em uma expressão.

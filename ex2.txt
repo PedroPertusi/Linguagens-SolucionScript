@@ -1,21 +1,9 @@
-<solucion> 
-
+<solucion>
 var entero a;
-let fraccionario b;
 
-a = 10;
-b = = 5.5;
+a = 1;
 
-si (b > a) {
-  print("El fraccionario es mayor que el entero.");
-} sino {
-  print("El fraccionario no es mayor que el entero.");
-}
-
-mientras (a > 0) {
-  print(a);
-  a = a - 1;
-}
-
-
+si (a == 1) { 
+  a = a + 1;
+} 
 </solucion>
