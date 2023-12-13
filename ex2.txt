@@ -1,6 +1,21 @@
 <solucion> 
-var entero x; 
-var entero y; 
-x = 2; 
-y = 5; 
+
+var entero a;
+let fraccionario b;
+
+a = 10;
+b = = 5.5;
+
+si (b > a) {
+  print("El fraccionario es mayor que el entero.");
+} sino {
+  print("El fraccionario no es mayor que el entero.");
+}
+
+mientras (a > 0) {
+  print(a);
+  a = a - 1;
+}
+
+
 </solucion>
