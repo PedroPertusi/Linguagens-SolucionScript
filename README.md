@@ -21,7 +21,7 @@ Depois é possivel acessar e executar o notebook do jupyer: `solucion_script.ipy
 
 Nele você encontrará exemplos de como usar a linguagem e como ela funciona.
 
-Para executar seu próprio código, basta criar um arquivo de texto (exemplos disponiveis: `ex1.txt` e `ex2.txt`) com o seu código e rodar uma célula no fim do notebook seguindo o seguinte exemplo:
+Para executar seu próprio código, basta criar um arquivo de texto (exemplos disponiveis: `ex1.txt` , `ex2.txt` e `ex3.txt`) com o seu código e rodar uma célula no fim do notebook seguindo o seguinte exemplo:
 
     with open('SEU_ARQUIVO.txt', 'r') as f:
         program = f.read()
