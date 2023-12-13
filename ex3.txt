@@ -1,0 +1,12 @@
+<solucion>
+var entero x;
+var entero y;
+
+funcion entero soma1(a){
+    devolver a + 1;
+}
+    
+y = 5; 
+x = soma1(1);
+
+</solucion>
